@@ -1,0 +1,72 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "Harry-Mall"
+			}
+		}, {
+			"path": "pages/main/main",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationBarBackgroundColor": "#e83e3e",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/cart/cart",
+			"style": {}
+		}, {
+			"path": "pages/category/category",
+			"style": {
+				"navigationBarTitleText": "分类"
+			}
+		},
+		{
+			"path": "pages/ranking/index",
+			"style": {}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {}
+		}
+	],
+	"tabBar": {
+		"color": "#515c6f",
+		"selectedColor": "#ff6969",
+		"borderStyle": "white",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/icon/index.png",
+				"selectedIconPath": "static/icon/index_fill.png"
+			},
+			{
+				"pagePath": "pages/category/category",
+				"text": "分类",
+				"iconPath": "static/icon/sort.png",
+				"selectedIconPath": "static/icon/sort_fill.png"
+			},
+			{
+				"pagePath": "pages/cart/cart",
+				"text": "购物车",
+				"iconPath": "static/icon/shoping.png",
+				"selectedIconPath": "static/icon/shoping_fill.png"
+			},
+			{
+				"pagePath": "pages/main/main",
+				"text": "我的",
+				"iconPath": "static/icon/my.png",
+				"selectedIconPath": "static/icon/my_fill.png"
+			}
+		]
+	},
+	"plugins": {
+
+	},
+	"globalStyle": {
+		"navigationBarTitleText": "Harry-Mall",
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black"
+	},
+	"subPackages": []
+}

@@ -1,0 +1,33 @@
+/* pages/ranking/index.wxss */
+/* 导航栏 */
+.goods-type {
+	clear: both;
+	overflow: auto;
+	display: block;
+	content: '';
+	background: #fff;
+	margin-bottom: 20rpx;
+	width: 100%;
+	position: fixed;
+	z-index: 9999;
+}
+
+.goods-item {
+	width: 25%;
+	height: 88rpx;
+	line-height: 88rpx;
+	display: block;
+	float: left;
+	font-size: 28rpx;
+	text-align: center;
+}
+
+.goods-type .goods-item.active {
+	color: #ff6969;
+}
+
+
+.country-img {
+	width: 20px;
+	height: 20upx;
+}
